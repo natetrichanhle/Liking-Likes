@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Likes</title>
+</head>
+<body>
+    <!-- nav bar start -->
+    <div class = "nav flex align">
+        <div class = "flex align">
+            <h1 class="nav-title">Network</h1>
+        </div>
+    </div>
+    <h1>Your Feed</h1>
+    <!-- nav bar end -->
+    
+    <!-- body start -->
+    <div class = "main">
+        <div class = "columns flex">
+            <div class = "col-2">
+                <div class = "profile">
+                    <div class = "avatar flex">
+                        <img src = "profilepic.jpg" alt = "profilepic">
+                        <h2>
+                            <a href = "#">Add an avatar</a>
+                        </h2>
+                        <h1>Nate Trichanh</h1>
+                    </div>
+                </div>
+            </div>
+            <div class = "col-1">
+                <div class = "profile">
+                    <div class = "likebox flex align">
+                        <h1>Neil M</h1>
+                        <div class = "flex align">
+                            <h2><span id = "num1">9</span> Like(s)</h2>
+                            <button class = "btn" id = "btn" onclick = "change1()">Like</button>
+                        </div>
+                    </div>
+                    <div class = "description">
+                        <p>I just set up this new discord bot, let me<br>
+                        know what you all think. <a href = "#">link</a></p>
+                    </div>
+                </div>
+                <div class = "profile">
+                    <div class = "likebox flex align">
+                        <h1>Nichole K</h1>
+                        <div class = "flex align">
+                            <h2><span id = "num2">12</span> Like(s)</h2>
+                            <button class = "btn" id = "btn" onclick = "change2()">Like</button>
+                        </div>
+                    </div>
+                    <div class = "description">
+                        <p>Just finished my <a href = "#">next comic</a>, check it out.</p>
+                    </div>
+                </div>
+                <div class = "profile">
+                    <div class = "likebox flex align">
+                        <h1>Jim R</h1>
+                        <div class = "flex align">
+                            <h2><span id = "num3">9</span> Like(s)</h2>
+                            <button class = "btn" id = "btn" onclick = "change3()">Like</button>
+                        </div>
+                    </div>
+                    <div class = "description">
+                        <p>I can't stop listening to the <a href = "#">new album</a>.<br>
+                        Who else is liking it?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "script.js"></script>
+    <!-- body end -->
+</body>
+</html>
